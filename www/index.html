@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+	<link rel="shortcut icon" href="tmp16.png" type="image/png">
+        <meta charset="utf-8" />
+        <title>EQUATION VISUALIZER</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script src="js/flotr2.min.js"></script>
+		<script src="js/jquery.js"></script>
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/flashcanvas.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="container" class="container"></div>
+        <div class="controls">
+            <h3>Functions</h3><br/>
+            <p>
+
+		<select name="func1" id="function1">
+                <option  value="1" > sin(x)</option>
+                <option  value="2" > cos(x)</option>
+				<option  value="3" > tan(x)</option>
+		</select>&nbsp;&nbsp;&nbsp;&nbsp;
+		<select name="op" id="operator">
+                <option value="0" > Operator </option>
+                <option value="1" > + </option>
+				<option value="2" > - </option>
+				<option value="3" > / </option>
+				<option value="4" > * </option>
+		</select>&nbsp;&nbsp;&nbsp;&nbsp;
+		 <select name=func2" id="function2">
+				<option  value="0"> --None--</option>
+		                <option  value="1"> sin(x)</option>
+		                <option  value="2" selected=selected> cos(x)</option>
+				<option  value="3" > tan(x)</option>
+		</select>
+<!--
+		<input type="text" id="offset1" placeholder="offset" style="width:50px"/>
+
+		<input type="text" id="offset2" placeholder="offset" style="width:50px"/>
+	-->	
+		
+            </p>
+            <!--<h3>Visual mode:</h3>
+            <p>
+		<select name="" id="modes">
+                <option name="mode" value="1"  checked> #1</option>
+                <option name="mode" value="2" > #2 </option>
+                <option name="mode" value="3" > #3 </option>
+		</select>
+            </p>-->
+	   
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

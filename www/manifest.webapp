@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "name": "Equation Visualizer",
+  "description": "Given function will be plotted",
+  "launch_path": "/",
+  "icons": {
+    "16": "/img/icons/tmp16.png",
+    "48": "/img/icons/tmp48.png",
+    "128": "/img/icons/tmp128.png"
+  },
+  "developer": {
+    "name": "Rajesh Vakkalagadda , Harshith Meela",
+    "url": "http://web.iiit.ac.in/~meela.harshith/firefox/app/www/index.html"
+  },
+"permissions": {
+  "contacts": {
+    "description": "Required for autocompletion in the share screen",
+    "access": "readcreate"
+  },
+  "alarms": {
+    "description": "Required to schedule notifications"
+  }
+},
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+    "es": {
+      "description": "Su nueva aplicación impresionante Open Web",
+      "developer": {
+        "url": "http://yourawesomeapp.com"
+      }
+    },
+    "it": {
+      "description": "Il vostro nuovo fantastico Open Web App",
+      "developer": {
+        "url": "http://yourawesomeapp.com"
+      }
+    }
+  },
+  "default_locale": "en"
+}
